@@ -1,7 +1,7 @@
 <template>
   <!-- Title of Form -->
   <div
-    class="transition-colors duration-500 bg-gradient-to-br from-light-white to-white dark:from-purple-950 dark:to-blue-950 shadow-lg rounded-xl p-6 w-full max-w-sm"
+    class="transition-colors duration-400 bg-gradient-to-br from-light-white to-white dark:from-purple-950 dark:to-blue-950 shadow-lg rounded-xl p-6 w-full max-w-sm"
   >
     <h2 class="text-2xl font-semibold text-center text-gray-700 dark:text-indigo-50 mb-6">
       ورود به سامانه
