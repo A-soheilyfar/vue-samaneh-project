@@ -1,14 +1,19 @@
 <template>
-  <div class="min-h-screen bg-light-white flex flex-col items-center justify-start p-6 space-y-8">
+  <div
+    class="min-h-screen bg-light-white flex flex-col items-center justify-start p-6 py-12 space-y-8"
+  >
     <!-- فرم ورود -->
-    <LoginForm />
+    <heroForm />
 
     <!-- لیست کارت‌ها -->
-    <SystemList />
+    <systemList />
+    <footerMain />
   </div>
+  <!-- فوتر -->
 </template>
 
 <script setup>
-import LoginForm from "../components/heroForm.vue";
-import SystemList from "../components/systemList.vue";
+import heroForm from "../components/heroForm.vue";
+import systemList from "../components/systemList.vue";
+import footerMain from "../components/footerMain.vue";
 </script>

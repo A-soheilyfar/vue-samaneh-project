@@ -2,13 +2,23 @@
 
 @theme {
   --font-script: Great Vibes, cursive;
-  --color-light-primary: #6ef3d6;
+  /* Pallet 1 */
+
+  /* --color-light-primary: #6ef3d6;
   --color-light-secondary: #c6fce5;
   --color-light-third: #0dceda;
   --color-light-white: #ebfffa;
-}
 
-body {
+
+  /* Pallet 2 */
+
+  --color-light-primary: #176b87;
+  --color-light-secondary: #64ccc5;
+  --color-light-third: #04364a;
+  --color-light-white: #dafffb;
+}
+/*
+  body
   background-color: #00f0b4;
   margin: 0;
-}
+} */

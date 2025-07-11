@@ -1,6 +1,6 @@
 <template>
   <!-- Title of Form -->
-  <div class="bg-light-white shadow-lg rounded-xl p-6 w-full max-w-sm">
+  <div class="bg-gradient-to-br from-light-white to-white shadow-lg rounded-xl p-6 w-full max-w-sm">
     <h2 class="text-2xl font-semibold text-center text-gray-700 mb-6">ورود به سامانه</h2>
 
     <!-- Form -->
@@ -14,7 +14,7 @@
           v-model="username"
           type="text"
           class="w-full px-4 py-2 border border-light-primary rounded-lg focus:outline-none focus:ring-2 focus:ring-light-third"
-          placeholder="مثال : admin"
+          placeholder="admin"
         />
         <!-- using v-model to connect to ref variable in Script section -->
       </div>
