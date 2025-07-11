@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-3x1">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
     <systemCard
       v-for="system in systems"
       :key="system.id"
@@ -17,12 +17,17 @@ const systems = [
   {
     id: 1,
     title: "سامانه آنلاین امداد",
-    image: "https://placehold.co/100x100?text=Emdad",
+    image: "https://source.unsplash.com/featured/400x300/?emergency",
   },
   {
     id: 2,
     title: "سامانه شهرسازی درآمد",
-    image: "https://placehold.co/100x100?text=Daramad",
+    image: "https://source.unsplash.com/featured/400x300/?city,planning",
+  },
+  {
+    id: 3,
+    title: "سامانه خدمات شهری",
+    image: "https://source.unsplash.com/featured/400x300/?municipality",
   },
 ];
 

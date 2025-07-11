@@ -13,7 +13,7 @@
           id="username"
           v-model="username"
           type="text"
-          class="w-full px-4 py-2 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="w-full px-4 py-2 border border-light-secondary rounded-lg focus:outline-none focus:ring-2 focus:ring-light-primary"
           placeholder="مثال : admin"
         />
         <!-- using v-model to connect to ref variable in Script section -->
@@ -24,14 +24,14 @@
         <input
           type="password"
           v-model="password"
-          class="w-full px-4 py-2 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="w-full px-4 py-2 border border-light-secondary rounded-lg focus:outline-none focus:ring-2 focus:ring-light-primary"
           placeholder="******"
         />
       </div>
 
       <button
         type="submit"
-        class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+        class="w-full bg-light-secondary text-white py-2 rounded-lg hover:bg-light-primary"
       >
         ورود
       </button>
