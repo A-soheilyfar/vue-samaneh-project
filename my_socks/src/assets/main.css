@@ -1,3 +1,4 @@
+@custom-variant dark (&:where(.dark, .dark *));
 @import "tailwindcss";
 
 @theme {
@@ -16,7 +17,14 @@
   --color-light-secondary: #64ccc5;
   --color-light-third: #04364a;
   --color-light-white: #dafffb;
+
+  /* Dark colors */
+  --color-dark-light-primary: #0f4c5c;
+  --color-dark-light-secondary: #1f7a8c;
+  --color-dark-light-third: #162c34;
+  --color-dark-light-white: #dbeafe;
 }
+
 /*
   body
   background-color: #00f0b4;

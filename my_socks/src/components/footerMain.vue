@@ -1,5 +1,11 @@
 <template>
-  <footer class="text-center text-sm text-zinc-500 py-6">
-    Every pixel, crafted by <span class="text-zinc-700 font-bold">Abolfazl Soheilyfar</span> ✨
+  <footer
+    class="w-full py-6 text-center text-sm transition-all duration-500 ease-in-out text-light-primary hover:text-light-third dark:text-green-100 dark:hover:text-dark-light-third"
+  >
+    <p class="animate-pulse">
+      Designed with ❤️ by
+      <span class="font-semibold text-blue-600 dark:text-blue-400">Abolfazl Soheilyfar</span> —
+      <span>{{ new Date().getFullYear() }}</span>
+    </p>
   </footer>
 </template>

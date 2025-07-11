@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen bg-light-white flex flex-col items-center justify-start p-6 py-12 space-y-8"
+    class="transition-colors duration-500 min-h-screen bg-light-white dark:bg-gray-800 flex flex-col items-center justify-start p-6 py-12 space-y-8"
   >
     <!-- فرم ورود -->
     <heroForm />
