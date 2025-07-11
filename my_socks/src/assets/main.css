@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-script: Great Vibes, cursive;
+  --color-light-primary: #6ef3d6;
+  --color-light-secondary: #c6fce5;
+  --color-light-third: #0dceda;
+  --color-light-white: #ebfffa;
+}
+
+/* body {
+  background-color: #ebfffa;
+  margin: 0;
+} */
