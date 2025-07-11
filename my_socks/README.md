@@ -1,29 +1,52 @@
-# my_socks
+# 🌐 Vue 3 + TailwindCSS UI Project | پروژه رابط کاربری ویو + تیلویند
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center">
+  <img src="./Samaneh.png" alt="Screenshot of project" width="600"/>
+</p>
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ English Description
 
-## Customize configuration
+This is a simple yet interactive Vue 3 + TailwindCSS project featuring:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Dynamic image loading using the **Pixabay API**
+- Modular component structure
+- Light/Dark mode toggle
+- Responsive design
+- Custom animated footer
 
-## Project Setup
+> Designed with ❤️ by **Abolfazl Soheilyfar**
 
-```sh
+---
+
+## 📚 Technologies
+
+-Vue 3
+-Vite
+-Tailwind CSS
+-Pixabay API
+
+## 🇮🇷 توضیحات فارسی
+
+این پروژه با استفاده از Vue 3 و TailwindCSS طراحی شده و امکانات زیر را دارد:
+
+دریافت داینامیک عکس‌ها از API عمومی Pixabay
+
+ساختار کامپوننتی ماژولار
+
+پشتیبانی از حالت شب و روز (Dark/Light)
+
+طراحی واکنش‌گرا (Responsive)
+
+فوتر متحرک و زیبا
+
+طراحی‌شده با ❤️ توسط Abolfazl Soheilyfar
+
+## 🧪 Project Setup
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
 npm run build
 ```

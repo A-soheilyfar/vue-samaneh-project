@@ -7,9 +7,9 @@
 
     <!-- لیست کارت‌ها -->
     <systemList />
+    <!-- فوتر -->
     <footerMain />
   </div>
-  <!-- فوتر -->
 </template>
 
 <script setup>
