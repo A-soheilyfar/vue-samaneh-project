@@ -13,23 +13,46 @@
 <script setup>
 import systemCard from "./systemCard.vue";
 
-const systems = [
+const systems = ref([
   {
     id: 1,
     title: "سامانه آنلاین امداد",
-    image: "https://source.unsplash.com/featured/400x300/?emergency",
+    query: "emergency",
+    image: "",
   },
   {
     id: 2,
     title: "سامانه شهرسازی درآمد",
-    image: "https://source.unsplash.com/featured/400x300/?city,planning",
+    query: "urban planning",
+    image: "",
   },
   {
     id: 3,
     title: "سامانه خدمات شهری",
-    image: "https://source.unsplash.com/featured/400x300/?municipality",
+    query: "municipality service",
+    image: "",
   },
-];
+]);
+
+import { ref, onMounted } from "vue";
+
+const fetchImage = async (query) => {
+  const apiKey = "51279325-df4cf9562eae1a047cbaae140";
+  const url = `https://pixabay.com/api/?key=${apiKey}&q=${encodeURIComponent(
+    query
+  )}&image_type=photo`;
+  const res = await fetch(url);
+  const data = await res.json();
+  return data.hits?.[0]?.webformatURL || "";
+};
+
+//
+onMounted(async () => {
+  for (let system of systems.value) {
+    const image = await fetchImage(system.query);
+    system.image = image;
+  }
+});
 
 function selectSystem(id) {
   alert(`شما روی سامانه ${id} کلیک کردید`);

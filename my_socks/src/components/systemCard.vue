@@ -1,7 +1,7 @@
 <template>
   <div
     @click="handleClick"
-    class="cursor-pointer bg-gradient-to-br from-white to-indigo-200 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:scale-105"
+    class="cursor-pointer bg-gradient-to-br from-light-white to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden transform hover:scale-105"
   >
     <img :src="image" alt="system image" class="w-full h-48 object-cover" />
     <!-- w-24 h-24 object-contain mb-4 -->
