@@ -1,9 +1,9 @@
 # 🌐 Vue 3 + TailwindCSS UI Project | پروژه رابط کاربری ویو + تیلویند
 
 <p align="center">
-<h2>Day Mode</h2>
+Day Mode
   <img src="./Samaneh.png" alt="Screenshot of project" width="600"/>
-  <h2>Night Mode</h2>
+Night Mode
   <img src="./Samaneh_night.png" alt="Screenshot of project" width="600"/>
 </p>
 
