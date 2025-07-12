@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="w-full py-6 text-center text-sm transition-all duration-400 ease-in-out text-light-primary hover:text-light-third dark:text-green-100 dark:hover:text-dark-light-third"
+    class="w-full py-6 text-center text-sm transition-all duration-400 ease-in-out text-light-primary hover:text-light-third dark:text-green-100 dark:hover:text-white"
   >
     <p class="animate-pulse">
       Designed with ❤️ by
