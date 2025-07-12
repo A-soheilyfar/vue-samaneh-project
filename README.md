@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="./Samaneh.png" alt="Screenshot of project" width="600"/>
+  <img src="./Samaneh_night.png" alt="Screenshot of project" width="600"/>
 </p>
 
 ---
