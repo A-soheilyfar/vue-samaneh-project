@@ -12,7 +12,9 @@
     <form action="#" @submit.prevent="handleLogin">
       <!-- user -->
       <div class="mb-4">
-        <label for="username" class="block text-sm text-gray-600 dark:text-indigo-50 mb-1"
+        <label
+          for="username"
+          class="block text-sm text-gray-600 dark:text-indigo-50 mb-1 text-right"
           >نام کاربری</label
         >
         <input
@@ -25,7 +27,7 @@
         <!-- using v-model to connect to ref variable in Script section -->
       </div>
       <!-- pass -->
-      <div class="mb-4">
+      <div class="mb-4 text-right">
         <label class="block text-sm text-gray-600 dark:text-indigo-50 mb-1" for="password"
           >رمز عبور</label
         >
