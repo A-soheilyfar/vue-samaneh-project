@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="transition-colors duration-400 min-h-screen bg-light-white dark:bg-gray-800 flex flex-col items-center justify-start p-6 py-12 space-y-8"
-  >
+  <div class="flex flex-col items-center justify-start p-6 py-12 space-y-8 font-[IranSansX]">
     <!-- فرم ورود -->
     <heroForm />
 

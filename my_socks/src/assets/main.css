@@ -1,8 +1,25 @@
 @custom-variant dark (&:where(.dark, .dark *));
 @import "tailwindcss";
+@import url(./fonts/IRANSansX-Bold.woff);
+@import url(./fonts/IRANSansX-Regular.woff);
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/IRANSansX-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/IRANSansX-Bold.woff") format("woff");
+}
 
 @theme {
   --font-script: Great Vibes, cursive;
+  --font-display: "IranSansX", "sans-serif";
   /* Pallet 1 */
 
   /* --color-light-primary: #6ef3d6;
@@ -17,16 +34,26 @@
   --color-light-secondary: #64ccc5;
   --color-light-third: #04364a;
   --color-light-white: #dafffb;
+  --color-light-pattern: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%236ef3d6' fill-opacity='0.44' fill-rule='evenodd'/%3E%3C/svg%3E");
 
   /* Dark colors */
   --color-dark-light-primary: #0f4c5c;
   --color-dark-light-secondary: #1f7a8c;
   --color-dark-light-third: #162c34;
   --color-dark-light-white: #dbeafe;
+  --color-dark-pattern: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23162c34' fill-opacity='0.44' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
-/*
-  body
-  background-color: #00f0b4;
-  margin: 0;
-} */
+body {
+  background-color: #dafffb;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%236ef3d6' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E"); /* روشن */
+  background-repeat: repeat;
+  background-size: 20px 20px;
+  transition: all;
+}
+
+body.dark {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23000000' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: #baecf8;
+  background-color: #011922;
+}

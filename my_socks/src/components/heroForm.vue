@@ -55,10 +55,10 @@ const username = ref("");
 const password = ref("");
 function handleLogin() {
   if (!username.value || !password.value) {
-    alert("لطفا فیلد های خالی را پر نمائید");
+    alert("لطفا فیلد های خالی را پر نمائید⚠️");
     return;
   }
-  alert("شما وارد شدید");
+  alert("شما وارد شدید ✅");
 }
 </script>
 
